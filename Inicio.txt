@@ -1,1 +1,2 @@
 Bienvenidos al repositorio de ejercicios PHP - 2025
+Esta es una rama secundaria
