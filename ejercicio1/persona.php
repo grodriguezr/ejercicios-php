@@ -1,17 +1,18 @@
 <?php
 class Persona{
+    //Atributos de clase
     public $Nombre;
     public $Apellido;
     public $Direccion;
     public $Telefono;
 
-
-    function set_nombre($Nombre){
-        $this->$Nombre = $Nombre;
+    //setters y getters
+    public function set_nombre($Nombre){
+        $this->Nombre = $Nombre;
     }
 
     function get_nombre(){
-        return $this->$Nombre;
+        return $this->Nombre;
     }
 
     function imprimeInformacion(){
