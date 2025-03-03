@@ -15,9 +15,26 @@ class Persona{
         return $this->Nombre;
     }
 
+    public function set_apellido($Apellido){
+        $this->Apellido = $Apellido;
+    }
+
+    function get_apellido(){
+        return $this->Apellido;
+    }
+
+//funciones
     function imprimeInformacion(){
         echo "Nombre: ".$this->get_nombre();
+        
     }
+
+
+
+
+
+
+
 }
 
 
