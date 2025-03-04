@@ -7,33 +7,37 @@ class Electrodomestico{
 
 
     //getters y setters
-    function get_nombre($Nombre){
+    function set_nombre($Nombre){
         $this->Nombre = $Nombre;
     }
 
-    function set_nombre(){
+    function get_nombre(){
         return $this->Nombre;
     }
 
-    function get_marca($Marca){
+    function set_marca($Marca){
         $this->Marca = $Marca;
     }
 
-    function set_marca(){
+    function get_marca(){
         return $this->Marca;
     }
 
-    function get_precio($Precio){
+    function set_precio($Precio){
         $this->Precio = $Precio;
     }
 
-    function set_precio(){
+    function get_precio(){
         return $this->Precio;
     }
 
+    
+
     //Funciones o métodos
 
-    
+    function precio_total(){
+        return $this->Precio + $this->Precio * 0.019 ;
+    }
 
 
 

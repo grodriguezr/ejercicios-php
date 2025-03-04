@@ -6,11 +6,11 @@ class Televisor extends Electrodomestico{
 
     //getters y setters
 
-    function get_resolucion($Resolucion){
+    function set_resolucion($Resolucion){
         $this->Resolucion = $Resolucion;
     }
 
-    function set_resolucion(){
+    function get_resolucion(){
         return $this->Resolucion;
     }
 
